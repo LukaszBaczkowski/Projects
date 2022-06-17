@@ -1,0 +1,178 @@
+* {
+	box-sizing: border-box;
+    margin:0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Open Sanse', sans-serif;
+	margin: 0;
+}
+
+section {
+	color: #5e5e5e;
+	font-size: 3em;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.home1 {
+position: absolute;
+width: 50%;
+height: 100vh;
+
+left: 0;
+}
+.home2 {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    right: 0;
+  
+    padding: 100px;
+    }
+.phome2 {
+    font-size: 20px;
+    top:30%;
+    position: absolute;
+    margin-right: 100px;
+
+}
+.bike {
+    position: absolute;
+    width: 85%;
+    bottom: 3%;
+    left:8%;
+}
+.title {
+    font-size: 80px;
+    color: #5e5e5e;
+    padding: 50px;
+    
+}
+#home{
+	background-color: #32f52b;
+
+}
+
+#onas{
+	background-color: #32f52b;
+}
+
+#faq{
+	background-color: #ffffff;
+}
+.pfaq {
+    font-size: 20px;
+    color: #5e5e5e;
+
+}
+.dfaq {
+height: 100vh;
+width: 40%;
+left: 0;
+position: absolute;
+margin-top: 25vh;
+margin-left: 8vw;
+margin-right: 2vw;
+}
+.dbike3 {
+    position: absolute;
+    height:100vh;
+    width: 50%;
+
+    right: 0;
+}
+.bike3 {
+position: absolute;
+height: 55%;
+width: 100%;
+right: 0;
+bottom: 0;
+}
+
+#kontakt{
+	background-color:  #32f52b;
+}
+
+nav {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+    z-index: 1;
+}
+
+nav a {
+
+	border-radius: 50%;
+	display: block;
+	margin: 10px;
+
+}
+nav i {
+ 
+    font-size: 40px;
+    color: #5e5e5e;
+}
+nav i:hover {
+ 
+    font-size: 40px;
+    color: #383838;
+}
+
+.form {
+    width: 40vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 350vh;
+    transform: translate(-50%, -50%);
+    color: #5e5e5e;
+    padding: 25px;
+    border-radius: 5px;
+    font-size:18px;
+}
+input{
+    position: absolute;
+    margin: 5px;
+    border: 2px solid  #5e5e5e;
+    height: 22px;
+    right: 5%;
+    width: 250px;}
+
+.formularz {
+    position: absolute;
+    color: #5e5e5e;
+    text-align: center;
+    font-size: 50px;
+    top: 302vh;
+}
+.submit{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 5px;
+    border: 2px solid  #5e5e5e;
+    font-size: 20px;
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+}
+.submit:hover {
+    background-color: #cfcfcf;
+}
+
+#msg {
+    color:red;
+    font-size: 10px;
+   
+}
